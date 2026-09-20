@@ -1,0 +1,7 @@
+{
+  "project": "ERP 知识库控制台",
+  "version": "v0.6.0-sandbox",
+  "scope": "登录与 Bearer Token 鉴权\n普通员工问答入口\n文档库上传、编辑、权限设置\n采购审批制度文档同步到 Dify\nDify 索引状态刷新\nERP 本地可见文档兜底检索\n合同对比、纪要生成、测试报告生成三个场景页面\n历史会话与审批确认页",
+  "findings": "Dify 文档 segment 已生成且索引 completed，但 retrieve 对采购审批问题返回 0 条。\nDify Chat App Key 当前未配置，AI 问答不能依赖 Dify chat-messages。\n合同对比、纪要生成、测试报告生成页面目前为 mock 返回，未真正调用 qwen3:8b。\n合同对比页面当前只上传文件名，未读取文件正文。",
+  "conclusion": "建议作为沙箱演示版本通过，但正式进入业务试点前，需要完成三个场景的 AI 接入、文件正文解析、输出引用来源、错误兜底和审批日志留痕。"
+}

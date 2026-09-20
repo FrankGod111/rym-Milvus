@@ -1,0 +1,7 @@
+{
+  "primary_file_name": "contract_a_supplier_standard.md",
+  "secondary_file_name": "contract_b_company_template.md",
+  "contract_type": "采购服务合同",
+  "review_focus": "付款条件, 违约责任, 验收条款, 保密与数据安全, 争议解决",
+  "notes": "重点识别供应商版本相对公司模板的风险，包括预付款比例过高、自动验收、违约责任不对等、保密期限不足和管辖地不利。"
+}

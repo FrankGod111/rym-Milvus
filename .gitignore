@@ -1,0 +1,24 @@
+.venv/
+.venv-*/
+node_modules/
+dist/
+.vite/
+__pycache__/
+*.pyc
+.Python
+
+# Local secrets and runtime state
+.env
+.env.*
+!.env.example
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Local machine/editor files
+.DS_Store
+.claude/
+.pytest_cache/
+.~*

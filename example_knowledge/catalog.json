@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "7a7e2fd7-db73-5085-9e19-e16bb37fc014",
+      "title": "网络与协议 · 文档 1",
+      "summary": "索引「网络与协议」下的示例文档 1/3，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-network",
+        "demo",
+        "part-1"
+      ],
+      "index_key": "idx-network",
+      "index_label": "网络与协议",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "99a40a17-ef17-5223-a6d6-64232a33d16b",
+      "title": "网络与协议 · 文档 2",
+      "summary": "索引「网络与协议」下的示例文档 2/3，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-network",
+        "demo",
+        "part-2"
+      ],
+      "index_key": "idx-network",
+      "index_label": "网络与协议",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "7b6dc2ac-021e-53a3-8141-2a52445a1351",
+      "title": "网络与协议 · 文档 3",
+      "summary": "索引「网络与协议」下的示例文档 3/3，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-network",
+        "demo",
+        "part-3"
+      ],
+      "index_key": "idx-network",
+      "index_label": "网络与协议",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "9bb03ac7-754c-567a-a6b3-4a4b3e3899c4",
+      "title": "安全与认证 · 文档 1",
+      "summary": "索引「安全与认证」下的示例文档 1/3，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-security",
+        "demo",
+        "part-1"
+      ],
+      "index_key": "idx-security",
+      "index_label": "安全与认证",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "26332e92-d6ea-5c83-9112-5e2e0fbacd4b",
+      "title": "安全与认证 · 文档 2",
+      "summary": "索引「安全与认证」下的示例文档 2/3，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-security",
+        "demo",
+        "part-2"
+      ],
+      "index_key": "idx-security",
+      "index_label": "安全与认证",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "0ac02af5-d185-5170-9944-2a97f27a78ef",
+      "title": "安全与认证 · 文档 3",
+      "summary": "索引「安全与认证」下的示例文档 3/3，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-security",
+        "demo",
+        "part-3"
+      ],
+      "index_key": "idx-security",
+      "index_label": "安全与认证",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "c581f85b-4cf7-5a31-8b91-9c42c4adc6a8",
+      "title": "API 与接口 · 文档 1",
+      "summary": "索引「API 与接口」下的示例文档 1/3，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-api",
+        "demo",
+        "part-1"
+      ],
+      "index_key": "idx-api",
+      "index_label": "API 与接口",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "d4f3d7e5-f35f-52ee-8565-8e4d50c4c5c0",
+      "title": "API 与接口 · 文档 2",
+      "summary": "索引「API 与接口」下的示例文档 2/3，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-api",
+        "demo",
+        "part-2"
+      ],
+      "index_key": "idx-api",
+      "index_label": "API 与接口",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "1e442e49-8c11-5ebc-a2c8-fe1a506f8036",
+      "title": "API 与接口 · 文档 3",
+      "summary": "索引「API 与接口」下的示例文档 3/3，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-api",
+        "demo",
+        "part-3"
+      ],
+      "index_key": "idx-api",
+      "index_label": "API 与接口",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "af0f28ed-4500-5ebb-bd24-08f3c7edeb5c",
+      "title": "运维与部署 · 文档 1",
+      "summary": "索引「运维与部署」下的示例文档 1/2，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-ops",
+        "demo",
+        "part-1"
+      ],
+      "index_key": "idx-ops",
+      "index_label": "运维与部署",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "b7e847f9-865b-5e1d-8c73-95acb8b97ff5",
+      "title": "运维与部署 · 文档 2",
+      "summary": "索引「运维与部署」下的示例文档 2/2，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-ops",
+        "demo",
+        "part-2"
+      ],
+      "index_key": "idx-ops",
+      "index_label": "运维与部署",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "1f94fc58-8817-58f1-95a2-8af9607e8a57",
+      "title": "数据与存储 · 文档 1",
+      "summary": "索引「数据与存储」下的示例文档 1/3，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-data",
+        "demo",
+        "part-1"
+      ],
+      "index_key": "idx-data",
+      "index_label": "数据与存储",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "8dc16d46-c46b-531b-8ee0-c9db93131500",
+      "title": "数据与存储 · 文档 2",
+      "summary": "索引「数据与存储」下的示例文档 2/3，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-data",
+        "demo",
+        "part-2"
+      ],
+      "index_key": "idx-data",
+      "index_label": "数据与存储",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "93665fd0-6518-56ac-a773-2bb7028ad13c",
+      "title": "数据与存储 · 文档 3",
+      "summary": "索引「数据与存储」下的示例文档 3/3，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-data",
+        "demo",
+        "part-3"
+      ],
+      "index_key": "idx-data",
+      "index_label": "数据与存储",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "bd8eb15b-e9c2-53eb-87f9-91029c6883db",
+      "title": "产品与流程 · 文档 1",
+      "summary": "索引「产品与流程」下的示例文档 1/2，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-product",
+        "demo",
+        "part-1"
+      ],
+      "index_key": "idx-product",
+      "index_label": "产品与流程",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "03b3bb99-c915-54f9-9350-4a82a33e0579",
+      "title": "产品与流程 · 文档 2",
+      "summary": "索引「产品与流程」下的示例文档 2/2，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-product",
+        "demo",
+        "part-2"
+      ],
+      "index_key": "idx-product",
+      "index_label": "产品与流程",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "39a7ba12-a1e1-55b8-bfb0-7617877d73e5",
+      "title": "故障与支持 · 文档 1",
+      "summary": "索引「故障与支持」下的示例文档 1/2，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-support",
+        "demo",
+        "part-1"
+      ],
+      "index_key": "idx-support",
+      "index_label": "故障与支持",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "c680ba58-48ae-50fa-88c7-85c19b93282d",
+      "title": "故障与支持 · 文档 2",
+      "summary": "索引「故障与支持」下的示例文档 2/2，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-support",
+        "demo",
+        "part-2"
+      ],
+      "index_key": "idx-support",
+      "index_label": "故障与支持",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "9f251fbd-6a59-5fe7-a5c4-0b11e05bbe66",
+      "title": "术语与缩写 · 文档 1",
+      "summary": "索引「术语与缩写」下的示例文档 1/2，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-glossary",
+        "demo",
+        "part-1"
+      ],
+      "index_key": "idx-glossary",
+      "index_label": "术语与缩写",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    },
+    {
+      "id": "faeb7da4-ec20-5640-ad4e-ec0691abe11f",
+      "title": "术语与缩写 · 文档 2",
+      "summary": "索引「术语与缩写」下的示例文档 2/2，用于本地知识库全量读取演示（非 RAG）。",
+      "tags": [
+        "idx-glossary",
+        "demo",
+        "part-2"
+      ],
+      "index_key": "idx-glossary",
+      "index_label": "术语与缩写",
+      "updated_at": "2026-04-19T15:04:07+00:00"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ERP Knowledge Console Sandbox</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main id="login" class="login-shell">
+    <section class="login-art">
+      <div class="brand-mark">EK</div>
+      <p class="eyebrow">Enterprise Knowledge Console Sandbox</p>
+      <h1>单智能助手模式。</h1>
+      <p class="login-copy">当前副本用于验证“一个助手完成问答、场景生成、历史留痕和审批”的新交互流程。</p>
+    </section>
+    <form id="loginForm" class="login-panel">
+      <span class="panel-kicker">本地演示登录</span>
+      <h2>欢迎回来</h2>
+      <label>账号<input id="username" value="admin" autocomplete="username" /></label>
+      <label>密码<input id="password" value="admin" type="password" autocomplete="current-password" /></label>
+      <button type="submit">进入沙箱工作台</button>
+      <p class="hint">可用账号：admin / ops / finance，密码任意非空。</p>
+      <p id="loginError" class="error"></p>
+    </form>
+  </main>
+
+  <main id="app" class="app-shell hidden">
+    <aside class="sidebar">
+      <div class="product"><span>EK</span><strong>ERP Knowledge</strong></div>
+      <nav id="nav"></nav>
+      <div class="sidebar-foot">
+        <small>基础版 MVP</small>
+        <button id="logoutBtn">退出登录</button>
+      </div>
+    </aside>
+
+    <section class="workspace">
+      <header class="topbar">
+        <div>
+          <p id="sectionKicker" class="eyebrow">Dashboard</p>
+          <h1 id="sectionTitle">仪表盘</h1>
+        </div>
+        <div class="top-actions">
+          <button data-view="upload" class="accent switch-view">上传文档</button>
+          <span id="userBadge" class="user-badge"></span>
+        </div>
+      </header>
+      <section id="content" class="content"></section>
+    </section>
+  </main>
+
+  <div id="toast" class="toast"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
