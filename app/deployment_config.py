@@ -25,7 +25,7 @@ class DeploymentConfig:
 
     # Frontend dev service address for documentation/reference.
     frontend_host: str = "0.0.0.0"
-    frontend_port: int = 5173
+    frontend_port: int = 5185
 
 
 DEPLOYMENT_CONFIG = DeploymentConfig()

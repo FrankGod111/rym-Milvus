@@ -21,4 +21,4 @@ PYTHON_BIN="${PYTHON_BIN:-python}"
 if [[ -x "$PROJECT_DIR/.venv-local/bin/python" ]] && "$PROJECT_DIR/.venv-local/bin/python" -c 'import sys; raise SystemExit(0 if sys.version_info >= (3, 10) else 1)' 2>/dev/null; then
   PYTHON_BIN="$PROJECT_DIR/.venv-local/bin/python"
 fi
-exec "$PYTHON_BIN" -m uvicorn app.main:app --host "${BACKEND_HOST:-127.0.0.1}" --port "${BACKEND_PORT:-18115}"
+exec "$PYTHON_BIN" -m uvicorn app.main:app --host "${BACKEND_HOST:-127.0.0.1}" --port "${BACKEND_PORT:-8013}"

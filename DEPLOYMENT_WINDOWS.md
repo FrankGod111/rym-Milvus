@@ -21,6 +21,8 @@ Install `requirements.txt` so `pymilvus` and the PostgreSQL driver are available
 
 If Dify should remain responsible for knowledge retrieval, set `KNOWLEDGE_VECTOR_BACKEND=dify` instead. This setting changes this application's retrieval path and does not replace Dify's own PostgreSQL, Redis, or vector service.
 
+FastAPI is API-only. The old backend-served sandbox pages `/app` and `/new` have been removed. The React/Vite interface is served on port `5185`; port `8013` is reserved for the backend API.
+
 ## 1. Frontend / Vite dev proxy
 
 File: `deployment.config.mjs`
@@ -28,7 +30,7 @@ File: `deployment.config.mjs`
 ```js
 export const deploymentConfig = {
   frontendHost: '0.0.0.0',
-  frontendPort: 5173,
+  frontendPort: 5185,
   backendBaseUrl: 'http://<SERVER_IP>:8013',
   ollamaBaseUrl: 'http://<SERVER_IP_OR_DOCKER_HOST>:11434',
   ollamaModel: 'qwen3:8b',

@@ -9,8 +9,6 @@ from typing import Any
 from fastapi import FastAPI, HTTPException, Request, status
 from fastapi.encoders import jsonable_encoder
 from fastapi.exceptions import RequestValidationError
-from fastapi.responses import FileResponse, RedirectResponse
-from fastapi.staticfiles import StaticFiles
 from fastapi.utils import is_body_allowed_for_status_code
 from pydantic import BaseModel, Field
 from starlette.responses import JSONResponse, Response
@@ -63,9 +61,6 @@ app.include_router(contracts_health_router)
 app.include_router(erp_router)
 app.include_router(knowledge_router)
 app.include_router(skill_router)
-app.mount("/static", StaticFiles(directory="app/static"), name="static")
-app.mount("/new", StaticFiles(directory="app/static/new", html=True), name="new")
-
 _lock = threading.Lock()
 _store: dict[str, dict[str, Any]] = {}
 
@@ -92,13 +87,9 @@ def health() -> dict[str, str]:
 
 
 @app.get("/", include_in_schema=False)
-def root() -> RedirectResponse:
-    return RedirectResponse(url="/app")
-
-
-@app.get("/app", include_in_schema=False)
-def erp_app() -> FileResponse:
-    return FileResponse("app/static/index.html")
+def root() -> dict[str, str]:
+    """Keep the API root lightweight; the React UI is served by Vite."""
+    return {"status": "ok", "service": "erp-api", "frontend": "http://127.0.0.1:5185"}
 
 
 @app.post("/items", response_model=Item, status_code=status.HTTP_201_CREATED)
